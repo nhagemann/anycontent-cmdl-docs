@@ -13,6 +13,54 @@
 
 
 
+### TODO
+
+* password
+* number
+* checkbox
+* selection
+* multiselection
+* timestamp
+* date
+* file
+* image
+* table
+* colorpicker
+* geolocation
+* sequence
+* custom
+
+### form composition
+* headline [
+* section [[
+* tab [[[
+* print >
+
+## Annotations
+* @title
+* @description
+* @languages
+* @status
+* @subtypes
+* @synchronized-properties
+* @workspaces
+* @operations
+* @sortable
+* @time-shiftable
+* @default-value
+* @hint
+* @help
+* @info
+* @placeholder
+* @hidden-properties
+* @insert
+
+
+### Other
+* Comment #
+* = View
+* + Clipping
+
 
 
 TextFormElements
