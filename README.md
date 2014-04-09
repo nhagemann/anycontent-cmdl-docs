@@ -1,8 +1,7 @@
-
 ## Form Elements
 ### Text Input
 
-* [textfield](formelement/textfield)
+* [textfield](formelement/textfield.md)
 * textarea
 * richtext
 * markdown
