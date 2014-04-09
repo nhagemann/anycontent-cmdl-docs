@@ -2,14 +2,14 @@
 ### Text Input
 
 * [textfield](formelement/textfield.md)
-* textarea
-* richtext
-* markdown
+* [textarea](formelement/textarea.md)
+* [richtext](formelement/richtext.md)
+* [markdown](formelement/markdown.md)
 
 ### Source Code Input
-* html
-* cmdl
-* sourcecode
+* [html](formelement/html.md)
+* [cmdl](formelement/cmdl.md)
+* [sourcecode](formelement/sourcecode.md)
 
 
 
