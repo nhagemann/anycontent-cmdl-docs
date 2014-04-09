@@ -2,9 +2,9 @@
 
 ## Examples
 
-* `a = textfield L`
+* `a* = textfield L`
 
-![alt text](https://github.com/nhagemann/anycontent-cmdl-docs/raw/master/textfield.jpg)
+![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/formelement/textfield.jpg)
 
 ##Parameters:
 
