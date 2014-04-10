@@ -26,7 +26,7 @@
 * image
 * table
 * colorpicker
-* geolocation
+* [geolocation](formelement/textarea.md)
 * sequence
 * custom
 
