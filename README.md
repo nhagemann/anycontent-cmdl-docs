@@ -27,7 +27,6 @@
 
 * file
 * image
-* folder
 
 ### Data Structures
 * table

@@ -3,6 +3,7 @@
 
 * files
 * images
+* folder
 * remote-file
 * remote-image
 * remote-selection
