@@ -13,6 +13,6 @@
 ## Annotations
 * @validate property minmax|regex
 * @workflow
-* @sortable related property1
+* @sortable related property
 * @content-type-thumbnail property default
-* @hooks client|server (insert: http://www.ard.de, update:, delete ) (insert: xxx, update:, delete: xxx) // after before
+* @hooks client|server (insert: http://www.example.org, update:..., delete:... ) (insert:..., update:..., delete:...) // after before
