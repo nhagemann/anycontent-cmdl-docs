@@ -12,13 +12,16 @@
 * date
 * timestamp
 * [geolocation](formelement/geolocation.md)
-* colorpicker
+* color
+* range
 
 ### Selections
 
 * checkbox
 * selection
 * multiselection
+* reference
+* multireference
 
 ### Files & Images
 
