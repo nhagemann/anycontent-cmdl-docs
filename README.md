@@ -73,8 +73,11 @@
 
 ### Others
 * Comment #
-* = View
-* + Clipping
 * @operations
 * @insert
 
+## Views
+* = View
+
+## Clippings
+* + Clipping
