@@ -4,6 +4,7 @@
 * files
 * images
 * folder
+* imageversion
 * remote-file
 * remote-image
 * remote-selection
