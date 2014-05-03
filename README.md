@@ -70,6 +70,9 @@
 * @placeholder
 
 ### Property Management
+* *
+* !
+* §
 * @hidden-properties
 * @synchronized-properties
 
