@@ -12,8 +12,9 @@
 * remote-multireference
 
 ## Annotations
+* @preview
 * @validate property minmax|regex
 * @workflow
 * @sortable related property
-* @content-type-thumbnail property default
+* @thumbnail property default
 * @hooks client|server (insert: http://www.example.org, update:..., delete:... ) (insert:..., update:..., delete:...) // after before
