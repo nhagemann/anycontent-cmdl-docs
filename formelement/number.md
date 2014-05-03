@@ -33,6 +33,9 @@ E.g.: "42.42"
 `a = number`
 
 ![a = number](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/formelement/number.jpg)
+
+`a = number 2 Unit`
+
 ![a = number 2 Unit](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/formelement/number2u.jpg)
 
 [Back to form elements overview](../README.md#form-elements)

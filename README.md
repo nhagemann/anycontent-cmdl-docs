@@ -6,6 +6,11 @@
 * [richtext](formelement/richtext.md)
 * [markdown](formelement/markdown.md)
 
+### Numerical Input
+
+* [number](formelement/number.md)
+* [geolocation](formelement/geolocation.md)
+
 ### Source Code Input
 * [html](formelement/html.md)
 * [cmdl](formelement/cmdl.md)
@@ -16,7 +21,6 @@
 ### TODO
 
 * password
-* number
 * checkbox
 * selection
 * multiselection
@@ -26,7 +30,6 @@
 * image
 * table
 * colorpicker
-* [geolocation](formelement/geolocation.md)
 * sequence
 * custom
 
@@ -61,8 +64,3 @@
 * = View
 * + Clipping
 
-
-
-TextFormElements
-SourceCodeFormElements
-RichtextTinyMCEFormElements
