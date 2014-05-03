@@ -24,7 +24,7 @@ E.g.: "50.1109221, 8.682126700000026"
 
 ## Examples
 
-`a = geolocation]`
+`a = geolocation`
 
 ![a = geolocation](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/formelement/geolocation.jpg)
 
