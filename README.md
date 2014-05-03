@@ -9,58 +9,73 @@
 ### Numerical Input
 
 * [number](formelement/number.md)
+* date
+* timestamp
 * [geolocation](formelement/geolocation.md)
 
 ### Source Code Input
 * [html](formelement/html.md)
 * [cmdl](formelement/cmdl.md)
 * [sourcecode](formelement/sourcecode.md)
+* colorpicker
 
 
+### Selections
 
-### TODO
-
-* password
 * checkbox
 * selection
 * multiselection
-* timestamp
-* date
+
+### Files & Images
+
 * file
 * image
-* table
-* colorpicker
-* sequence
-* custom
+* folder
 
-### form composition
+### Data Structures
+* table
+* sequence
+
+### Form Composition
 * headline [
 * section [[
 * tab [[[
 * print >
 
+### Others
+
+* password
+* custom
+
 ## Annotations
+### Data Type Specification
 * @title
 * @description
-* @languages
 * @status
 * @subtypes
-* @synchronized-properties
+
+### Data Dimensions
 * @workspaces
-* @operations
-* @sortable
+* @languages
 * @time-shiftable
+* @sortable
+
+### Form Element Specifications
+
 * @default-value
 * @hint
 * @help
 * @info
 * @placeholder
+
+### Property Management
 * @hidden-properties
-* @insert
+* @synchronized-properties
 
-
-### Other
+### Others
 * Comment #
 * = View
 * + Clipping
+* @operations
+* @insert
 
