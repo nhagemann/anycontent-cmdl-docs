@@ -12,13 +12,7 @@
 * date
 * timestamp
 * [geolocation](formelement/geolocation.md)
-
-### Source Code Input
-* [html](formelement/html.md)
-* [cmdl](formelement/cmdl.md)
-* [sourcecode](formelement/sourcecode.md)
 * colorpicker
-
 
 ### Selections
 
@@ -35,6 +29,11 @@
 ### Data Structures
 * table
 * sequence
+
+### Source Code Input
+* [html](formelement/html.md)
+* [cmdl](formelement/cmdl.md)
+* [sourcecode](formelement/sourcecode.md)
 
 ### Form Composition
 * headline [
