@@ -13,6 +13,7 @@
 * remote-multireference
 
 ## Annotations
+* @operations
 * @preview
 * @validate property minmax|regex
 * @workflow
