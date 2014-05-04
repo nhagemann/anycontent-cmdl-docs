@@ -78,7 +78,6 @@
 
 ### Others
 * Comment #
-* @operations
 * @insert
 
 ## Views
