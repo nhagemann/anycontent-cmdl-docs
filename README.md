@@ -14,7 +14,7 @@
 * timestamp
 * [geolocation](formelement/geolocation.md)
 * color
-* range
+* [range](formelement/range.md)
 
 ### Selections
 
