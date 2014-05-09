@@ -5,7 +5,7 @@
 
 ### Parameters
 
-none
+None
 
 ### Lists
 
@@ -13,11 +13,11 @@ None.
 
 ##Remarks
 
-The textfield form element is the default form element for any property. So you don't have to specify it explicity, a cmdl line like `Title` is perfectly valid.
+None
 
 ## Examples
 
-`a = link L`
+`a = link`
 
 ![a = link](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/formelement/link.jpg)
 
