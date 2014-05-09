@@ -5,7 +5,7 @@
 * [textarea](formelement/textarea.md)
 * [richtext](formelement/richtext.md)
 * [markdown](formelement/markdown.md)
-* link
+* [link](formelement/link.md)
 
 ### Numerical Input
 
