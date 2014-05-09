@@ -27,7 +27,7 @@ None.
 
 ##Storage
 
-Numbers are stored with '.' as decimal.
+Numbers are stored with '.' as decimal, if required.
 
 E.g.: "42.42"
 
