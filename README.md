@@ -46,7 +46,7 @@
 
 ### Others
 
-* password
+* [password](formelement/password.md)
 * custom
 
 ## Annotations
