@@ -10,7 +10,7 @@
 ### Numerical Input
 
 * [number](formelement/number.md)
-* date
+* [date](formelement/date.md)
 * timestamp
 * [geolocation](formelement/geolocation.md)
 * color
