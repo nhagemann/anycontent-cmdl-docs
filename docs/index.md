@@ -1,6 +1,6 @@
 index.md
 
-TEST
+TEST       
 
 ## Form Elements
 ### Text Input
@@ -77,7 +77,7 @@ TEST
 ### Property Management
 * *
 * !
-* §
+* ï¿½
 * @hidden-properties
 * @synchronized-properties
 
