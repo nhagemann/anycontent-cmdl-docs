@@ -25,6 +25,3 @@ The textfield form element is the default form element for any property. So you 
 
 
 [Back to form elements overview](../cmdl.md#form-elements)
- 
- 
-Was jetzt
