@@ -1,3 +1,1 @@
 cmdl.md
-
-fuck
