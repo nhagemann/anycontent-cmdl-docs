@@ -2,3 +2,4 @@ site_name: AnyContent
 pages:
 - [index.md, Home]
 - [about.md, About]
+- [cmdl.md, CMDL]
