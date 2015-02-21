@@ -1,6 +1,6 @@
 #`markdown` form element
 
-![a = markdown 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementmarkdown.jpg)
+![a = markdown 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/markdown.jpg)
 
 
 ### Parameters
@@ -24,7 +24,7 @@ None.
 
 `a = markdown 10 L`
 
-![a = markdown 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementmarkdown.jpg)
+![a = markdown 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/markdown.jpg)
 
 [Back to form elements overview](../README.md#form-elements)
 

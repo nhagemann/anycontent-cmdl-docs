@@ -1,6 +1,6 @@
 #`html` form element
 
-![Template = html](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementhtml.jpg)
+![Template = html](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/html.jpg)
 
 
 ### Parameters
@@ -24,7 +24,7 @@ None.
 
 `[Template = html`
 
-![Template = html](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementhtml.jpg)
+![Template = html](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/html.jpg)
 
 [Back to form elements overview](../README.md#form-elements)
 

@@ -1,6 +1,6 @@
 #`link` form element
 
-![a = link](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementlink.jpg)
+![a = link](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/link.jpg)
 
 
 ### Parameters
@@ -19,7 +19,7 @@ None
 
 `a = link`
 
-![a = link](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementlink.jpg)
+![a = link](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/link.jpg)
 
 
 [Back to form elements overview](../README.md#form-elements)

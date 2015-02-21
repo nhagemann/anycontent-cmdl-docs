@@ -1,7 +1,7 @@
 #`geolocation` form element
 
-![a = geolocation](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementgeolocation.jpg)
-![a = geolocation](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementgeolocation_modal.jpg)
+![a = geolocation](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/geolocation.jpg)
+![a = geolocation](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/geolocation_modal.jpg)
 
 ### Parameters
 
@@ -26,7 +26,7 @@ E.g.: "50.1109221, 8.682126700000026"
 
 `a = geolocation`
 
-![a = geolocation](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementgeolocation.jpg)
+![a = geolocation](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/geolocation.jpg)
 
 [Back to form elements overview](../README.md#form-elements)
 

@@ -1,6 +1,6 @@
 #`range` form element
 
-![a = range 10 100 5](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementrange.jpg)
+![a = range 10 100 5](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/range.jpg)
 
 
 ### Parameters
@@ -36,7 +36,7 @@ E.g.: "42.42"
 
 `a = range 10 100 5`
 
-![a = range 10 100 5](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementrange.jpg)
+![a = range 10 100 5](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/range.jpg)
 
 
 [Back to form elements overview](../README.md#form-elements)

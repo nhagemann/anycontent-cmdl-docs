@@ -1,6 +1,6 @@
 #`cmdl` form element
 
-![a = cmdl 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementcmdl.jpg)
+![a = cmdl 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/cmdl.jpg)
 
 
 ### Parameters
@@ -24,7 +24,7 @@ None.
 
 `cmdl 10 L`
 
-![a = cmdl 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementcmdl.jpg)
+![a = cmdl 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/cmdl.jpg)
 
 [Back to form elements overview](../README.md#form-elements)
 

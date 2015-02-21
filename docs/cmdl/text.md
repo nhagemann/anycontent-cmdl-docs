@@ -2,7 +2,7 @@
 
 The textfield form element is the default form element for any property. So you don't have to specify it explicity, a cmdl line like `Title` is perfectly valid.
 
-![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementtextfield.jpg)
+![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/textfield.jpg)
 
 
 **Parameters**
@@ -20,7 +20,7 @@ None.
 #`textarea` 
 
 
-![a = textarea 5 M](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementtextarea.jpg)
+![a = textarea 5 M](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/textarea.jpg)
 
 
 **Parameters**

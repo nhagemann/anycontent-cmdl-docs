@@ -1,6 +1,6 @@
 #`number` form element
 
-![a = number](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementnumber.jpg)
+![a = number](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/number.jpg)
 
 
 ### Parameters
@@ -32,11 +32,11 @@ E.g.: "42.42"
 
 `a = number`
 
-![a = number](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementnumber.jpg)
+![a = number](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/number.jpg)
 
 `a = number 2 Unit`
 
-![a = number 2 Unit](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementnumber2u.jpg)
+![a = number 2 Unit](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/number2u.jpg)
 
 [Back to form elements overview](../README.md#form-elements)
 
