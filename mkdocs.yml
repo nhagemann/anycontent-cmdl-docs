@@ -1,6 +1,15 @@
 site_name: AnyContent
 pages:
 - [index.md, Home]
-- [about.md, About]
-- [cmdl.md, CMDL]
-  - [formelement/textfield.md, textfield]
+- [about.md, Overview, About]
+- [cmdl.md, Content Definition, CMDL]
+- [cmdl/text.md, Content Definition, Text Input]
+- [cmdl/numerical.md, Content Definition, Numerical Input]
+- [cmdl/selections.md, Content Definition, Selections]
+- [cmdl/files-and-images.md, Content Definition, Files & Images]
+- [cmdl/data-structures.md, Content Definition, Data Structures]
+- [cmdl/source-code-input.md, Content Definition, Source Code Input]
+- [cmdl/form-composition.md, Content Definition, Form Composition]
+- [cmdl/others.md, Content Definition, Others]
+
+theme: readthedocs

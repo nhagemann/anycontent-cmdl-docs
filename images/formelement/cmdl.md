@@ -1,6 +1,6 @@
-#`textarea` form element
+#`cmdl` form element
 
-![a = textarea 5 M](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/formelement/textarea.jpg)
+![a = cmdl 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementcmdl.jpg)
 
 
 ### Parameters
@@ -22,9 +22,9 @@ None.
 
 ## Examples
 
-`a = textarea 5 M`
+`cmdl 10 L`
 
-![a = textarea 5 M](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/formelement/textarea.jpg)
+![a = cmdl 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementcmdl.jpg)
 
 [Back to form elements overview](../README.md#form-elements)
 

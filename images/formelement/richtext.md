@@ -1,6 +1,6 @@
-#`cmdl` form element
+#`richtext` form element
 
-![a = cmdl 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/formelement/cmdl.jpg)
+![a = richtext 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementrichtext.jpg)
 
 
 ### Parameters
@@ -22,9 +22,9 @@ None.
 
 ## Examples
 
-`cmdl 10 L`
+`a = richtext 10 L`
 
-![a = cmdl 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/formelement/cmdl.jpg)
+![a = richtext 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelementrichtext.jpg)
 
 [Back to form elements overview](../README.md#form-elements)
 
