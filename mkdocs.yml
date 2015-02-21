@@ -10,6 +10,7 @@ pages:
 - [cmdl/data-structures.md, Content Definition, Data Structures]
 - [cmdl/source-code-input.md, Content Definition, Source Code Input]
 - [cmdl/form-composition.md, Content Definition, Form Composition]
-- [cmdl/others.md, Content Definition, Others]
+- [cmdl/others.md, Content Definition, Other Form Elements]
+- [cmdl/annotations.md, Content Definition, Annotations]
 
 theme: readthedocs
