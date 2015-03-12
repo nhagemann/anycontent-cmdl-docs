@@ -29,6 +29,10 @@ None.
 
 Notice
 
+**Storage:**
+
+Text.
+
 * * *
 
 #`image` 
@@ -59,3 +63,7 @@ None.
 `Title = xxx yyy`
 
 Notice
+
+**Storage:**
+
+Text.

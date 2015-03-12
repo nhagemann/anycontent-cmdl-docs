@@ -29,6 +29,10 @@ None.
 
 Notice
 
+
+**Storage:**
+
+Text.
 * * *
 
 #`cmdl`
@@ -60,6 +64,10 @@ None.
 
 Notice 
 
+**Storage:**
+
+Text.
+
 * * *
 
 #`sourcecode`
@@ -90,3 +98,7 @@ None.
 `Title = xxx yyy`
 
 Notice 
+
+**Storage:**
+
+Text.

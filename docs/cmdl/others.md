@@ -59,6 +59,10 @@ None.
 `Title = xxx yyy`
 
 Notice
+
+**Storage:**
+
+Text.
   
 * * *
 
@@ -90,6 +94,10 @@ None.
 `Title = xxx yyy`
 
 Notice
+
+**Storage:**
+
+Text.
    
 * * *
 
@@ -121,3 +129,7 @@ None.
 `Title = xxx yyy`
 
 Notice
+
+**Storage:**
+
+Text.

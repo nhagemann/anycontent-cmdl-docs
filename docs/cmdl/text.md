@@ -69,13 +69,14 @@ Text with linefeeds.
 
 #`richtext`
 
-Description
 
 ![a = richtext 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/richtext.jpg)
 
 
 
 **Composition:**
+
+Form element for text with basic formatting.
 
 `<property> = richtext <rows> <size>`
 
@@ -99,12 +100,15 @@ None.
 
 `News = richtext 20 XL`
 
+**Storage:**
+
+HTML
  
 * * *
 
 #`markdown`
 
-Description
+Form element for formatted text using [Markdown](http://daringfireball.net/projects/markdown/syntax) syntax. 
 
 ![a = markdown 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/markdown.jpg)
 
@@ -132,4 +136,9 @@ None.
 `Abstract = markdown`
 
 `News = markdown 20 XL`
+
+**Storage:**
+
+[Markdown](http://daringfireball.net/projects/markdown/syntax)
+ 
   

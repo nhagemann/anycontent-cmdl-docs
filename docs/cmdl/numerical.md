@@ -30,7 +30,9 @@ None.
 Notice
 
 
+**Storage:**
 
+Text.
  
 * * *
 
@@ -62,6 +64,10 @@ None.
 `Title = xxx yyy`
 
 Notice
+
+**Storage:**
+
+Text.
   
 * * *
 
@@ -94,6 +100,10 @@ None.
 
 Notice
 
+**Storage:**
+
+Text.
+
 * * *
 
 #`geolocation` 
@@ -124,6 +134,10 @@ None.
 `Title = xxx yyy`
 
 Notice
+
+**Storage:**
+
+Text.
    
 * * *
 
@@ -155,6 +169,10 @@ None.
 `Title = xxx yyy`
 
 Notice
+
+**Storage:**
+
+Text.
     
     
 * * *
@@ -187,3 +205,7 @@ None.
 `Title = xxx yyy`
 
 Notice
+
+**Storage:**
+
+Text.
