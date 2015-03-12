@@ -68,8 +68,68 @@ Text with linefeeds.
 * * *
 
 #`richtext`
+
+Description
+
+![a = richtext 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/richtext.jpg)
+
+
+
+**Composition:**
+
+`<property> = richtext <rows> <size>`
+
+_Parameters_
+
+* Rows (Optional)
+
+Determines the number of rows of the input field. Default Value '10'.
+
+* Size (Optional)
+
+Determines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'. Default Value 'L'.
+
+_Lists_
+
+None.
+
+**Examples:**
+
+`Abstract = richtext`
+
+`News = richtext 20 XL`
+
  
 * * *
 
 #`markdown`
+
+Description
+
+![a = markdown 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/markdown.jpg)
+
+
+**Composition:**
+
+`<property> = markdown <rows> <size>`
+
+_Parameters_
+
+* Rows (Optional)
+
+Determines the number of rows of the input field. Default Value '10'.
+
+* Size (Optional)
+
+Determines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'. Default Value 'L'.
+
+_Lists_
+
+None.
+
+**Examples:**
+
+`Abstract = markdown`
+
+`News = markdown 20 XL`
   
