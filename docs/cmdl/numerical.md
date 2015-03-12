@@ -192,7 +192,7 @@ E.g.: "50.1109221, 8.682126700000026"
 
 #`color`
 
-Description
+Form element for selecting colors.
 
 ![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/color.jpg)
 
@@ -205,7 +205,7 @@ _Parameters_
 
 * Selection Type (Optional)
 
-Determines whether the use must choose from a palette (fixed) or can choose an arbitrary color (free).
+Determines whether the use must choose from a palette ('fixed') or can choose an arbitrary color ('free').
 
 _Lists_
 
@@ -216,6 +216,9 @@ List of selectable colors.
 **Examples:**
 
 `Color = color`
+
+![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/color.jpg)
+
 
 `Palette = color fixed (F00: Red, #0F0: Green, #00F: Blue)`
 
@@ -230,20 +233,28 @@ Colors are stored as [RGB hex](http://en.wikipedia.org/wiki/Web_colors#hex_tripl
 
 #`range`     
 
-Description
+Form element for selecting numbers within a given range.
 
-![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/textfield.jpg)
+![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/range.jpg)
 
 
 **Composition:**
 
-`<property> = xxx <yyy>`
+`<property> = range <min> <max> <step>`
 
 _Parameters_
 
-* yyy (Optional)
+* Min
 
-Parameter Description
+Minimum selectable value.
+
+* Max
+
+Maximum selectable value.
+
+* Step (Optional)
+
+Determines the scale of the increments between minimum und maximum selectable value. Default Value '1'.
 
 _Lists_
 
@@ -251,12 +262,13 @@ None.
 
 **Examples:**
 
-`Name = xxx`
+`a = range 10 100 5`
 
-`Title = xxx yyy`
+![a = range 10 100 5](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/range.jpg)
 
-Notice
 
 **Storage:**
 
-Text.
+Numbers are stored with '.' as decimal, if required.
+
+E.g.: "42.42"
