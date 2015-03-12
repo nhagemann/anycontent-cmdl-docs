@@ -103,73 +103,108 @@ List of selectable values.
 
 The selected values are stored as a comma separated string, e.g. "Mystery,Science Fiction".
 
-* * *
-
 #`reference`
  
-Description
-
-![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/textfield.jpg)
-
+Form element for selection of one value out of a list of records from a content type of the same repository.
 
 **Composition:**
 
-`<property> = xxx <yyy>`
+`<property> = reference <contenttype> <type> <workspace> <order> <language> <timeshift>`
 
 _Parameters_
 
-* yyy (Optional)
+* Content Type 
 
-Parameter Description
+Name of the referenced content type.
+
+* Type (Optional)
+
+Note how the selection should be presented. Possible values are 'radio', 'toggle' and 'dropdown'. Default value 'dropdown'.
+
+* Workspace (Optional)
+
+Specifies the workspace of the selectable records. Default value 'default'.
+
+* Order (Optional)
+
+Specifies how the selectable records are sorted. Default value 'name'.
+
+* Language (Optional)
+
+Specifies the language of the selectable records. Default value 'default'.
+
+* Timeshift (Optional)
+
+Specifies the time shift of the selectable records. Default value '0'.
 
 _Lists_
 
-None.
+None
 
 **Examples:**
 
-`Name = xxx`
+`News = selection news`
 
-`Title = xxx yyy`
+`Product = selection product live`
 
-Notice 
+`Page = selection page live english`
 
 **Storage:**
 
-Text.
+The id of the selected record is stored as a string.
 
 * * *
 
 #`multireference`
  
-Description
+Form element for selection of multiple values out of a list of records from a content type of the same repository.
 
-![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/textfield.jpg)
 
 
 **Composition:**
 
-`<property> = xxx <yyy>`
+`<property> = multiselection <contenttype> <type> <workspace> <order> <language> <timeshift>`
 
 _Parameters_
 
-* yyy (Optional)
+* Content Type 
 
-Parameter Description
+Name of the referenced content type. Must be within the same repository.
+
+* Type (Optional)
+
+Note how the selection should be presented. Possible values are 'list' and 'checkbox'. Default value 'list'.
+
+* Workspace (Optional)
+
+Specifies the workspace of the selectable records. Default value 'default'.
+
+* Order (Optional)
+
+Specifies how the selectable records are sorted. Default value 'name'.
+
+* Language (Optional)
+
+Specifies the language of the selectable records. Default value 'default'.
+
+* Timeshift (Optional)
+
+Specifies the time shift of the selectable records. Default value '0'.
 
 _Lists_
 
-None.
+None
 
 **Examples:**
 
-`Name = xxx`
+`News = multiselection news`
 
-`Title = xxx yyy`
+`Product = multiselection product live`
 
-Notice 
+`Page = multiselection page live english`
 
 **Storage:**
 
-Text.
+The ids of the selected records are stored as a comma separated string, e.g. "4,8,2".
+
 
