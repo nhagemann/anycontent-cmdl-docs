@@ -1,4 +1,3 @@
-* * *
 
 #`number`
 
@@ -21,7 +20,6 @@ Determines the number of digits. Default Value '0'.
 
 Determines the unit of the entered number. Default Value ''.
 
-Parameter Description
 
 _Lists_
 
@@ -69,11 +67,12 @@ None.
 
 **Examples:**
 
-`Name = xxx`
+`Date = date`
 
-`Title = xxx yyy`
+`Date = date short`
 
-Notice
+`Date = date long today`
+
 
 **Storage:**
 
@@ -109,7 +108,6 @@ None.
 
 `Date = timestamp full now`
 
-Notice
 
 **Storage:**
 
@@ -119,18 +117,18 @@ Dates are stored as [UNIX timestamps](http://en.wikipedia.org/wiki/Unix_time)
 
 #`geolocation` 
 
-Description
+Form element for editing places.
 
-![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/textfield.jpg)
-
+![a = geolocation](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/geolocation.jpg)
+![a = geolocation](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/geolocation_modal.jpg)
 
 **Composition:**
 
-`<property> = xxx <yyy>`
+`<property> = geolocation`
 
 _Parameters_
 
-* yyy (Optional)
+None.
 
 Parameter Description
 
@@ -140,15 +138,15 @@ None.
 
 **Examples:**
 
-`Name = xxx`
-
-`Title = xxx yyy`
+`Main site = geolocation`
 
 Notice
 
 **Storage:**
 
-Text.
+Latitude and Longitude gets separated with a comma. The coordinates itself are encoded as decimal degrees.
+
+E.g.: "50.1109221, 8.682126700000026"
    
 * * *
 
