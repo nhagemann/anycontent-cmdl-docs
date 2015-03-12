@@ -2,36 +2,47 @@
 
 #`table` 
 
-Description
+Form element to edit values in a two-dimensional matrix a.k.a. table.
 
-![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/textfield.jpg)
+![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/table.jpg)
 
 
 **Composition:**
 
-`<property> = xxx <yyy>`
+`<property> = table (headings) (widths)`
 
 _Parameters_
 
-* yyy (Optional)
-
-Parameter Description
+None
 
 _Lists_
 
-None.
+* Headings 
+
+List of headings for the table columns. Number of entries determines the number of columns.
+
+* Widths (Optional)
+
+Relative width for the table columns, can be any number.
 
 **Examples:**
 
-`Name = xxx`
+`Table = table (A,B,C)`
 
-`Title = xxx yyy`
+`Log = table (Quantity, Unit, Food) (15,15,70)`
 
-Notice
 
 **Storage:**
 
-Text.
+The cell values are stored within a [JSON](http://en.wikipedia.org/wiki/JSON) array of rows containing an array of the columns.
+
+_Example_
+
+
+`[[\"Cell A1\",\"Cell B1\",\"Cell C1\"],[\"Cell A2\",\"Cell B2\",\"Cell C2\"]]`
+
+![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/table2cells.jpg)
+
 
 * * *
 
