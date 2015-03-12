@@ -53,13 +53,15 @@ Form element for editing dates.
 
 `<property> = date <type> <init>`
 
+_Parameters_
+
 * Type (Optional)
 
 Determines which parts of a date should be stored, possible values 'long','short','datetime','full'. Default Value 'long'.
 
 * Init (Optional)
 
-Specifies initalization of the field, possible values 'today' and 'now'. The value 'now' includes time. No Default Value.
+Specifies initialization of the field, possible values 'today' and 'now'. The value 'now' includes time. No Default Value.
 
 _Lists_
 
@@ -90,13 +92,15 @@ Form element for editing dates.
 
 `<property> = timestamp <type> <init>`
 
+_Parameters_
+
 * Type (Optional)
 
 Determines which parts of a date should be stored, possible values 'datetime','full'. Default Value 'datetime'.
 
 * Init (Optional)
 
-Specifies initalization of the field, possible values 'today' and 'now'. The value 'now' includes time. No Default Value.
+Specifies initialization of the field, possible values 'today' and 'now'. The value 'now' includes time. No Default Value.
 
 _Lists_
 
@@ -115,57 +119,25 @@ Dates are stored as [UNIX timestamps](http://en.wikipedia.org/wiki/Unix_time)
 
 * * *
 
-#`geolocation` 
+#`time`     
 
-Form element for editing places.
-
-![a = geolocation](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/geolocation.jpg)
-![a = geolocation](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/geolocation_modal.jpg)
-
-**Composition:**
-
-`<property> = geolocation`
-
-_Parameters_
-
-None.
-
-Parameter Description
-
-_Lists_
-
-None.
-
-**Examples:**
-
-`Main site = geolocation`
-
-Notice
-
-**Storage:**
-
-Latitude and Longitude gets separated with a comma. The coordinates itself are encoded as decimal degrees.
-
-E.g.: "50.1109221, 8.682126700000026"
-   
-* * *
-
-#`color`
-
-Description
-
-![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/textfield.jpg)
+Form element for editing times.
 
 
 **Composition:**
 
-`<property> = xxx <yyy>`
+`<property> = time <type> <init>`
 
 _Parameters_
 
-* yyy (Optional)
+* Type (Optional)
 
-Parameter Description
+Determines which parts of a date should be stored, possible values 'short','long'. Default Value 'short'.
+
+* Init (Optional)
+
+Specifies initialization of the field, possible value 'now'. No Default Value.
+
 
 _Lists_
 
@@ -181,7 +153,77 @@ Notice
 
 **Storage:**
 
-Text.
+Times are stored in a format inspired by [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601): hh:mm:ss
+
+* * *
+
+#`geolocation` 
+
+Form element for editing places.
+
+![a = geolocation](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/geolocation.jpg)
+![a = geolocation](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/geolocation_modal.jpg)
+
+**Composition:**
+
+`<property> = geolocation`
+
+_Parameters_
+
+None.
+
+
+_Lists_
+
+None.
+
+**Examples:**
+
+`Main site = geolocation`
+
+
+**Storage:**
+
+Latitude and Longitude gets separated with a comma. The coordinates itself are encoded as [decimal degrees](http://en.wikipedia.org/wiki/Decimal_degrees).
+
+E.g.: "50.1109221, 8.682126700000026"
+   
+* * *
+
+#`color`
+
+Description
+
+![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/color.jpg)
+
+
+**Composition:**
+
+`<property> = color <selectiontype> (options)`
+
+_Parameters_
+
+* Selection Type (Optional)
+
+Determines whether the use must choose from a palette (fixed) or can choose an arbitrary color (free).
+
+_Lists_
+
+* Options (Optional)
+
+List of selectable colors.
+
+**Examples:**
+
+`Color = color`
+
+`Palette = color fixed (F00: Red, #0F0: Green, #00F: Blue)`
+
+![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/color2palette.jpg)
+
+**Storage:**
+
+Colors are stored as [RGB hex](http://en.wikipedia.org/wiki/Web_colors#hex_triplet) values including '#'.
     
     
 * * *
