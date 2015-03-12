@@ -145,9 +145,9 @@ None
 
 `News = selection news`
 
-`Product = selection product live`
+`Product = selection product dropdown live`
 
-`Page = selection page live english`
+`Page = selection page dropdown live english`
 
 **Storage:**
 
@@ -199,9 +199,9 @@ None
 
 `News = multiselection news`
 
-`Product = multiselection product live`
+`Product = multiselection product list live`
 
-`Page = multiselection page live english`
+`Page = multiselection page list live english`
 
 **Storage:**
 
