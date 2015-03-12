@@ -23,11 +23,11 @@ None.
 
 `Name = textfield`
 
-`Name = textfield M`
+`Title = textfield M`
 
-`Name`
+`Short Title`
 
-The textfield form element is the default form element for any property. So you don't have to specify it explicity, a cmdl line like `Title` is perfectly valid.
+The textfield form element is the default form element for any property. So you don't have to specify it explicitly, a cmdl line like `Short Title` is perfectly valid.
 
 **Storage:**
 
