@@ -2,18 +2,24 @@
 
 #`number`
 
-Description
+Form element for editing numbers.
 
-![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/textfield.jpg)
+![a = number](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/number.jpg)
 
 
 **Composition:**
 
-`<property> = xxx <yyy>`
+`<property> = number <digits> <unit>`
 
 _Parameters_
 
-* yyy (Optional)
+* Digits (Optional)
+
+Determines the number of digits. Default Value '0'.
+
+* Unit (Optional)
+
+Determines the unit of the entered number. Default Value ''.
 
 Parameter Description
 
@@ -23,35 +29,39 @@ None.
 
 **Examples:**
 
-`Name = xxx`
+`a = number`
 
-`Title = xxx yyy`
+![a = number](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/number.jpg)
 
-Notice
+`a = number 2 Unit`
+
+![a = number 2 Unit](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/number2u.jpg)
 
 
 **Storage:**
 
-Text.
+Numbers are stored with '.' as decimal separator and as many digits as specified by the digits parameter.
+
+E.g.: "42.42"
  
 * * *
 
 #`date`
 
-Description
-
-![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/textfield.jpg)
+Form element for editing dates.
 
 
 **Composition:**
 
-`<property> = xxx <yyy>`
+`<property> = date <type> <init>`
 
-_Parameters_
+* Type (Optional)
 
-* yyy (Optional)
+Determines which parts of a date should be stored, possible values 'long','short','datetime','full'. Default Value 'long'.
 
-Parameter Description
+* Init (Optional)
+
+Specifies initalization of the field, possible values 'today' and 'now'. The value 'now' includes time. No Default Value.
 
 _Lists_
 
@@ -67,26 +77,27 @@ Notice
 
 **Storage:**
 
-Text.
+Dates are stored in a format inspired by [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601): YYYY-MM-DD hh:mm:ss
   
 * * *
 
 #`timestamp`
 
-Description
 
-![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/textfield.jpg)
+Form element for editing dates.
 
 
 **Composition:**
 
-`<property> = xxx <yyy>`
+`<property> = timestamp <type> <init>`
 
-_Parameters_
+* Type (Optional)
 
-* yyy (Optional)
+Determines which parts of a date should be stored, possible values 'datetime','full'. Default Value 'datetime'.
 
-Parameter Description
+* Init (Optional)
+
+Specifies initalization of the field, possible values 'today' and 'now'. The value 'now' includes time. No Default Value.
 
 _Lists_
 
@@ -94,15 +105,15 @@ None.
 
 **Examples:**
 
-`Name = xxx`
+`Date = timestamp`
 
-`Title = xxx yyy`
+`Date = timestamp full now`
 
 Notice
 
 **Storage:**
 
-Text.
+Dates are stored as [UNIX timestamps](http://en.wikipedia.org/wiki/Unix_time)
 
 * * *
 

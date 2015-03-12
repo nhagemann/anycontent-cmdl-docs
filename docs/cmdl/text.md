@@ -69,6 +69,7 @@ Text with linefeeds.
 
 #`richtext`
 
+Form element for text with basic formatting.
 
 ![a = richtext 10 L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/richtext.jpg)
 
@@ -76,7 +77,7 @@ Text with linefeeds.
 
 **Composition:**
 
-Form element for text with basic formatting.
+
 
 `<property> = richtext <rows> <size>`
 
