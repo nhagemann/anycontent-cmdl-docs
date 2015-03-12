@@ -1,21 +1,17 @@
-* * *
-
 #`checkbox` 
 
-Description
-
-![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/textfield.jpg)
+Form element for managing binary states.
 
 
 **Composition:**
 
-`<property> = xxx <yyy>`
+`<property> = checkbox <legend>`
 
 _Parameters_
 
-* yyy (Optional)
+* Legend (Optional)
 
-Parameter Description
+Description of the selectable state.
 
 _Lists_
 
@@ -23,77 +19,89 @@ None.
 
 **Examples:**
 
-`Name = xxx`
+`Online = checkbox`
 
-`Title = xxx yyy`
+`Terms & Conditions = checkbox "Customer has agreed our terms & conditions."`
 
-Notice
+
+**Storage:**
+
+Stored as '0' or '1' if the checkbox has been checked.
 
 * * *
 
 #`selection`
  
-Description
-
-![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/textfield.jpg)
-
+Form element for selection of one value out of a list of possible values.
 
 **Composition:**
 
-`<property> = xxx <yyy>`
+`<property> = selection <type> (options)`
 
 _Parameters_
 
-* yyy (Optional)
+* Type (Optional)
 
-Parameter Description
+Note how the selection should be presented. Possible values are 'radio', 'toggle' and 'dropdown'. Default value 'dropdown'.
 
 _Lists_
 
-None.
+* Options
+
+List of selectable values.
 
 **Examples:**
 
-`Name = xxx`
+`Category = selection (Single, Double, Suite)`
 
-`Title = xxx yyy`
+`Class = selection radio (First, Business, Economy)`
 
-Notice 
+`Class = selection radio (1:First, 2:Business, 3:Economy)`
+
+**Storage:**
+
+The selected value is stored as a string. If the list is is specified as key/value list only the key gets stored.
 
 * * *
 
 #`multiselection`
  
-Description
+Form element for selection multiple values out of a list of possible values.
 
-![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/textfield.jpg)
+![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/multiselection.jpg)
 
 
 **Composition:**
 
-`<property> = xxx <yyy>`
+`<property> = multiselection <type> (options)`
 
 _Parameters_
 
-* yyy (Optional)
+* Type (Optional)
 
-Parameter Description
+Note how the selection should be presented. Possible values are 'list' and 'checkbox'. Default value 'list'.
 
 _Lists_
 
-None.
+* Options
+
+List of selectable values.
 
 **Examples:**
 
-`Name = xxx`
+`Category = multiselection (Comedy, Drama, Mystery, Science Fiction, Family)`
 
-`Title = xxx yyy`
+![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/multiselection.jpg)
 
-Notice 
+
+`Category = multiselection checkbox (Monday, Tuesday, Wednesday, Thursday, Friday)`
+
+![a* = textfield L](https://raw.githubusercontent.com/nhagemann/anycontent-cmdl-docs/master/images/formelement/multiselection2checkbox.jpg)
+
 
 **Storage:**
 
-Text.
+The selected values are stored as a comma separated string, e.g. "Mystery,Science Fiction".
 
 * * *
 
