@@ -74,7 +74,7 @@ Text with linefeeds.
 
 * * *
 
-#`richtext`
+#richtext
 
 Form element for text with basic formatting.
 
@@ -88,26 +88,10 @@ Form element for text with basic formatting.
 
 _Parameters_
 
-
-
-
 | Name | Type | Default | Description |   
 |------|-------|---------|-------------|
 |Rows  | Value | 10 | Determines the number of rows of the input field.| 
 |Size|Value| L | Determines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'. Default Value 'L'.|  
-
-
-* Rows (Optional)
-
-Determines the number of rows of the input field. Default Value '10'.
-
-* Size (Optional)
-
-Determines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'. Default Value 'L'.
-
-_Lists_
-
-None.
 
 **Examples:**
 
