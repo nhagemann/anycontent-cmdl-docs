@@ -1,5 +1,6 @@
 <style>
-table {margin-bottom:10px}
+h1:border 0px !important;
+table {margin-bottom:20px}
 th {border:1px solid grey;padding:4px;background-color:#E3E3E3}
 td {border:1px solid grey;padding:5px}
 </style>
@@ -18,13 +19,10 @@ Form element for single line raw text.
 
 _Parameters_
 
-* Size (Optional)
-
-Determines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'. Default Value 'L'.
-
-_Lists_
-
-None.
+| Name | Type | Default | Description |   
+|------|-------|---------|-------------|
+|Rows  | Value | 10 | Determines the number of rows of the input field.| 
+|Size|Value| L | Determines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'. Default Value 'L'.|
 
 **Examples:**
 
@@ -55,17 +53,10 @@ Form element for multi line raw text.
 
 _Parameters_
 
-* Rows (Optional)
-
-Determines the number of rows of the input field. Default Value '10'.
-
-* Size (Optional)
-
-Determines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'. Default Value 'L'.
-
-_Lists_
-
-None.
+| Name | Type | Default | Description |   
+|------|-------|---------|-------------|
+|Rows  | Value | 10 | Determines the number of rows of the input field.| 
+|Size|Value| L | Determines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'. Default Value 'L'.|
 
 **Storage:**
 
@@ -74,7 +65,7 @@ Text with linefeeds.
 
 * * *
 
-#richtext
+#`richtext`
 
 Form element for text with basic formatting.
 
@@ -123,17 +114,6 @@ _Parameters_
 |Rows  | Value | 10 | Determines the number of rows of the input field.| 
 |Size|Value| L | Determines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'. Default Value 'L'.|
 
-* Rows (Optional)
-
-Determines the number of rows of the input field. Default Value '10'.
-
-* Size (Optional)
-
-Determines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'. Default Value 'L'.
-
-_Lists_
-
-None.
 
 **Examples:**
 
