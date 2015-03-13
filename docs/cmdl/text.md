@@ -1,6 +1,6 @@
 <style>
-h1:border 0px !important;
-table {margin-bottom:20px}
+h1 {border 0px !important;}
+table {margin-bottom:25px !important}
 th {border:1px solid grey;padding:4px;background-color:#E3E3E3}
 td {border:1px solid grey;padding:5px}
 </style>
