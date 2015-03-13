@@ -1,6 +1,7 @@
 <style>
-th {border:1px solid black;padding:2px;background-color:#EEE}
-td {border:1px solid black;padding:2px}
+table {margin-bottom:10px}
+th {border:1px solid grey;padding:4px;background-color:#E3E3E3}
+td {border:1px solid grey;padding:5px}
 </style>
 
 
@@ -92,7 +93,8 @@ _Parameters_
 
 | Name | Type | Default | Description |   
 |------|-------|---------|-------------|
-|Rows  | Value | 10 | Determines the number of rows of the input field.|   
+|Rows  | Value | 10 | Determines the number of rows of the input field.| 
+|Size|Value| L | Determines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'. Default Value 'L'.|  
 
 
 * Rows (Optional)
@@ -135,7 +137,7 @@ _Parameters_
 | Name | Type | Default | Description |   
 |------|-------|---------|-------------|
 |Rows  | Value | 10 | Determines the number of rows of the input field.| 
-|Size|Value| L | Determines the size of the input field.|
+|Size|Value| L | Determines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'. Default Value 'L'.|
 
 * Rows (Optional)
 
