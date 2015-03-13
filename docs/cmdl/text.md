@@ -81,6 +81,26 @@ Form element for text with basic formatting.
 
 _Parameters_
 
+
+<table>
+<thead>
+<tr> 
+<th>Name</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr> 
+<td>Rows</td>
+<td>Value</td>
+<td>10</td>
+<td>Determines the number of rows of the input field.</td>
+</tr>
+</tbody>     
+</table>
+
 | Name | Type | Default | Description |   
 |------|-------|---------|-------------|
 |Rows  | Value | 10 | Determines the number of rows of the input field.|   
@@ -122,6 +142,11 @@ Form element for formatted text using [Markdown](http://daringfireball.net/proje
 `<property> = markdown <rows> <size>`
 
 _Parameters_
+
+| Name | Type | Default | Description |   
+|------|-------|---------|-------------|
+|Rows  | Value | 10 | Determines the number of rows of the input field.| 
+|Size|Value| L | Determines the size of the input field.|
 
 * Rows (Optional)
 
