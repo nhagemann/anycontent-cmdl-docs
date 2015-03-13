@@ -1,5 +1,5 @@
 <style>
-h1 {border 0px !important;}
+h1>code {border 0px !important;}
 table {margin-bottom:25px !important}
 th {border:1px solid grey;padding:4px;background-color:#E3E3E3}
 td {border:1px solid grey;padding:5px}
@@ -17,7 +17,7 @@ Form element for single line raw text.
 
 `<property> = textfield <size>`
 
-_Parameters_
+**Parameters**
 
 | Name | Type | Default | Description |   
 |------|-------|---------|-------------|
@@ -51,7 +51,7 @@ Form element for multi line raw text.
 
 `<property> = textarea <rows> <size>`
 
-_Parameters_
+**Parameters**
 
 | Name | Type | Default | Description |   
 |------|-------|---------|-------------|
@@ -77,7 +77,7 @@ Form element for text with basic formatting.
 
 `<property> = richtext <rows> <size>`
 
-_Parameters_
+**Parameters**
 
 | Name | Type | Default | Description |   
 |------|-------|---------|-------------|
@@ -107,7 +107,7 @@ Form element for formatted text using [Markdown](http://daringfireball.net/proje
 
 `<property> = markdown <rows> <size>`
 
-_Parameters_
+**Parameters**
 
 | Name | Type | Default | Description |   
 |------|-------|---------|-------------|
