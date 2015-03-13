@@ -77,11 +77,14 @@ Form element for text with basic formatting.
 
 **Composition:**
 
-
-
 `<property> = richtext <rows> <size>`
 
 _Parameters_
+
+| Name | Type | Default | Description |   
+|------|-------|---------|-------------|
+|Rows  | Value | 10 | Determines the number of rows of the input field.|   
+
 
 * Rows (Optional)
 
