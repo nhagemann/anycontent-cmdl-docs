@@ -17,7 +17,7 @@ Form element for single line raw text.
 
 `<property> = textfield <size>`
 
-**Parameters**
+**Parameters:**
 
 | Name | Type | Default | Description |   
 |------|-------|---------|-------------|
@@ -51,7 +51,7 @@ Form element for multi line raw text.
 
 `<property> = textarea <rows> <size>`
 
-**Parameters**
+**Parameters:**
 
 | Name | Type | Default | Description |   
 |------|-------|---------|-------------|
@@ -77,7 +77,7 @@ Form element for text with basic formatting.
 
 `<property> = richtext <rows> <size>`
 
-**Parameters**
+**Parameters:**
 
 | Name | Type | Default | Description |   
 |------|-------|---------|-------------|
@@ -107,7 +107,7 @@ Form element for formatted text using [Markdown](http://daringfireball.net/proje
 
 `<property> = markdown <rows> <size>`
 
-**Parameters**
+**Parameters:**
 
 | Name | Type | Default | Description |   
 |------|-------|---------|-------------|
