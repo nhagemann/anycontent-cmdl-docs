@@ -81,6 +81,9 @@ Form element for text with basic formatting.
 
 _Parameters_
 
+<style>
+table {border:1px solid green}
+</style>
 
 <table>
 <thead>
