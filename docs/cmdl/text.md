@@ -1,3 +1,9 @@
+<style>
+th {border:1px solid black;padding:2px;background-color:#EEE}
+td {border:1px solid black;padding:2px}
+</style>
+
+
 #`textfield` 
 
 Form element for single line raw text.
@@ -81,28 +87,8 @@ Form element for text with basic formatting.
 
 _Parameters_
 
-<style>
-table {border:1px solid green}
-</style>
 
-<table>
-<thead>
-<tr> 
-<th>Name</th>
-<th>Type</th>
-<th>Default</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr> 
-<td>Rows</td>
-<td>Value</td>
-<td>10</td>
-<td>Determines the number of rows of the input field.</td>
-</tr>
-</tbody>     
-</table>
+
 
 | Name | Type | Default | Description |   
 |------|-------|---------|-------------|
