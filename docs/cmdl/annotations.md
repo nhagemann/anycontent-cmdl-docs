@@ -25,6 +25,7 @@ not/list/tree/related
 * *
 * !
 * §
+* @name
 * @hidden-properties
 * @synchronized-properties
 
