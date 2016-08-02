@@ -1,0 +1,34 @@
+{
+    "id": 1,
+    "properties": {
+        "name": "textfield",
+        "status": null,
+        "subtype": "Text Input",
+        "position": null,
+        "parent": null,
+        "description": "Form element for single line raw text.",
+        "image": "images\/formelement\/textfield.jpg",
+        "composition": "<property> = textfield <size>",
+        "parameters": "[[\"Size\",\"Value\",\"L\",\"Determines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'. \"]]",
+        "examples": "Name = textfield\n\nTitle = textfield M\n\nShort Title",
+        "examplescomment": "The textfield form element is the default form element for any property.\n So you don't have to specify it explicitly, a cmdl line like Short Title is perfectly valid.",
+        "storage": "Text",
+        "linktext": null,
+        "linkurl": null
+    },
+    "info": {
+        "revision": 1,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470150976,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

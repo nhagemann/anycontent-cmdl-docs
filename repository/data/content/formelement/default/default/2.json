@@ -1,0 +1,34 @@
+{
+    "id": 2,
+    "properties": {
+        "name": "textarea",
+        "status": null,
+        "subtype": "Text Input",
+        "position": null,
+        "parent": null,
+        "description": "Form element for multi line raw text.",
+        "image": "images\/formelement\/textarea.jpg",
+        "composition": "<property> = textarea <rows> <size>",
+        "parameters": "[[\"Rows\",\"Value\",\"10\",\"Determines the number of rows of the input field.\"],[\"Size\",\"Value\",\"L\",\"Determines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'. \"]]",
+        "examples": "",
+        "examplescomment": "",
+        "storage": "Text with linefeeds.",
+        "linktext": "",
+        "linkurl": ""
+    },
+    "info": {
+        "revision": 2,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470151056,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

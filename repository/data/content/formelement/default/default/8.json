@@ -1,0 +1,29 @@
+{
+    "id": 8,
+    "properties": {
+        "name": "time",
+        "subtype": "Numerical Input",
+        "description": "<p>Form element for editing times.<\/p>",
+        "image": "images\/formelement\/time.jpg",
+        "composition": "<property> = time <type> <init>",
+        "parameters": "[[\"Type\",\"Value\",\"short\",\"Determines which parts of a time should be stored, possible values 'long','short'.\"],[\"Init\",\"Value\",\"\",\"Specifies initialization of the field, possible values 'now' and ''.\"]]",
+        "examples": "",
+        "examplescomment": "",
+        "storage": "<p>Times are stored in a format inspired by <a href=\"http:\/\/en.wikipedia.org\/wiki\/ISO_8601\">ISO 8601<\/a>: hh:mm:ss<\/p>"
+    },
+    "info": {
+        "revision": 2,
+        "creation": {
+            "timestamp": 1470151540,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "lastchange": {
+            "timestamp": 1470151858,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

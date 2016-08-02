@@ -1,0 +1,32 @@
+{
+    "id": 14,
+    "properties": {
+        "name": "multiselection",
+        "status": null,
+        "subtype": "Selections",
+        "position": null,
+        "parent": null,
+        "description": "<p>Form element for selection multiple values out of a list of possible values.<\/p>",
+        "image": "images\/formelement\/selection.jpg",
+        "composition": "<property> = multiselection <type> (options)",
+        "parameters": "[[\"Type\",\"Value\",\"list\",\"Note how the selection should be presented. Possible values are 'list' and 'checkbox'. \"],[\"Options\",\"List\",\"Mandatory!\",\"List of selectable values.\"]]",
+        "examples": "Category = multiselection (Comedy, Drama, Mystery, Science Fiction, Family)\n\nCategory = multiselection checkbox (Monday, Tuesday, Wednesday, Thursday, Friday)",
+        "examplescomment": null,
+        "storage": "<p>The selected values are stored as a comma separated string, e.g. \"Mystery,Science Fiction\".<\/p>"
+    },
+    "info": {
+        "revision": 1,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470153497,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

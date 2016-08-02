@@ -1,0 +1,32 @@
+{
+    "id": 7,
+    "properties": {
+        "name": "timestamp",
+        "status": null,
+        "subtype": "Numerical Input",
+        "position": null,
+        "parent": null,
+        "description": "<p>Form element for editing dates.<\/p>",
+        "image": "images\/formelement\/timestamp.jpg",
+        "composition": "<property> = timestamp <type> <init>",
+        "parameters": "[[\"Type\",\"Value\",\"datetime\",\"Determines which parts of a date should be stored, possible values 'datetime','full'.\"],[\"Init\",\"Value\",\"\",\"Specifies initialization of the field, possible values 'today', 'now' and ''. The value 'now' includes current time. \"]]",
+        "examples": "Date = timestamp\n\nDate = timestamp full now",
+        "examplescomment": null,
+        "storage": "<p>Dates are stored as <a href=\"http:\/\/en.wikipedia.org\/wiki\/Unix_time\">UNIX timestamps<\/a><\/p>"
+    },
+    "info": {
+        "revision": 1,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470153497,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

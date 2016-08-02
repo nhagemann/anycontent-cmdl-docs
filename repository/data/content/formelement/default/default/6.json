@@ -1,0 +1,32 @@
+{
+    "id": 6,
+    "properties": {
+        "name": "date",
+        "status": null,
+        "subtype": "Numerical Input",
+        "position": null,
+        "parent": null,
+        "description": "<p>Form element for editing dates.<\/p>",
+        "image": "images\/formelement\/date.jpg",
+        "composition": "<property> = date <type> <init>",
+        "parameters": "[[\"Type\",\"Value\",\"long\",\"Determines which parts of a date should be stored, possible values 'long','short','datetime','full'.\"],[\"Init\",\"Value\",\"\",\"Specifies initialization of the field, possible values 'today', 'now' and ''. The value 'now' includes current time. \"]]",
+        "examples": "Date = date\n\nDate = date short\n\nDate = date long today",
+        "examplescomment": null,
+        "storage": "<p>Dates are stored in a format inspired by <a href=\"http:\/\/en.wikipedia.org\/wiki\/ISO_8601\">ISO 8601<\/a>: YYYY-MM-DD hh:mm:ss<\/p>"
+    },
+    "info": {
+        "revision": 1,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470153497,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

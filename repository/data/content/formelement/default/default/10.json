@@ -1,0 +1,32 @@
+{
+    "id": 10,
+    "properties": {
+        "name": "color",
+        "status": null,
+        "subtype": "Numerical Input",
+        "position": null,
+        "parent": null,
+        "description": "<p>Form element for selecting colors.<\/p>",
+        "image": "images\/formelement\/color.jpg",
+        "composition": "<property> = color <selectiontype> (options)",
+        "parameters": "[[\"Selection Type\",\"Value\",\"free\",\"Determines whether the use must choose from a palette ('fixed') or can choose an arbitrary color ('free').\"],[\"Options\",\"List\",\"\",\"List of selectable colors.\"]]",
+        "examples": "Color = color\n\nPalette = color fixed (F00: Red, #0F0: Green, #00F: Blue)",
+        "examplescomment": null,
+        "storage": "<p>Colors are stored as <a href=\"http:\/\/en.wikipedia.org\/wiki\/Web_colors#hex_triplet\">RGB hex<\/a> values including '#'.<\/p>"
+    },
+    "info": {
+        "revision": 1,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470153497,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

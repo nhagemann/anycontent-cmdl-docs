@@ -1,0 +1,32 @@
+{
+    "id": 3,
+    "properties": {
+        "name": "richtext",
+        "status": null,
+        "subtype": "Text Input",
+        "position": null,
+        "parent": null,
+        "description": "Form element for text with basic formatting.",
+        "image": "images\/formelement\/richtext.jpg",
+        "composition": "<property> = richtext <rows> <size>",
+        "parameters": "[[\"Rows\",\"Value\",\"10\",\"Determines the number of rows of the input field.\"],[\"Size\",\"Value\",\"L\",\"Determines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'. \"]]",
+        "examples": "Abstract = richtext\n\nNews = richtext 20 XL",
+        "examplescomment": null,
+        "storage": "HTML"
+    },
+    "info": {
+        "revision": 1,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470153497,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 5,
+    "properties": {
+        "name": "number",
+        "status": null,
+        "subtype": "Numerical Input",
+        "position": null,
+        "parent": null,
+        "description": "<p>Form element for editing numbers.<\/p>",
+        "image": "images\/formelement\/number.jpg",
+        "composition": "<property> = number <digits> <unit>",
+        "parameters": "[[\"Digits\",\"Value\",\"0\",\"Determines the number of digits.\"],[\"Unit\",\"Value\",\"\",\"Determines the unit of the entered number.\"]]",
+        "examples": "a = number\n\na = number 2 Unit",
+        "examplescomment": null,
+        "storage": "<p>Numbers are stored with '.' as decimal separator and as many digits as specified by the digits parameter.<\/p>\n<p>E.g.: \"42.42\"<\/p>"
+    },
+    "info": {
+        "revision": 1,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470153497,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

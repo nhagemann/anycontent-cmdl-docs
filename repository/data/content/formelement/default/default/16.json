@@ -1,0 +1,32 @@
+{
+    "id": 16,
+    "properties": {
+        "name": "multireference",
+        "status": null,
+        "subtype": "Selections",
+        "position": null,
+        "parent": null,
+        "description": "<p>Form element for selection of multiple values out of a list of records from a content type of the same repository.<\/p>",
+        "image": "images\/formelement\/multireference.jpg",
+        "composition": "<property> = multiselection <contenttype> <type> <workspace> <order> <language> <timeshift>",
+        "parameters": "[[\"ContentType\",\"Value\",\"Mandatory!\",\"Name of the referenced content type. If you want to reference a content type from another repository you have to include the repository name, e.g. repository.contenttype.\"],[\"Type\",\"Value\",\"list\",\"Note how the selection should be presented. Possible values are 'list' and 'checkbox'.\"],[\"Workspace\",\"Value\",\"\",\"Specifies the workspace of the selectable records. \\r\\nIf you leave this option empty, current workspace gets selected.\"],[\"Order\",\"Value\",\"name\",\"Specifies how the selectable records are sorted.\"],[\"Language\",\"Value\",\"\",\"Specifies the language of the selectable records.\\r\\nIf you leave this option empty, current language gets selected.\"],[\"TimeShift\",\"Value\",\"0\",\"Specifies the time shift of the selectable records.\"]]",
+        "examples": "News = multiselection news\n\nProduct = multiselection product list live\n\nPage = multiselection page list live english",
+        "examplescomment": null,
+        "storage": "<p>The ids of the selected records are stored as a comma separated string, e.g. \"4,8,2\".<\/p>"
+    },
+    "info": {
+        "revision": 1,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470153497,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

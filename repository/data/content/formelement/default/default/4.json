@@ -1,0 +1,34 @@
+{
+    "id": 4,
+    "properties": {
+        "name": "markdown",
+        "status": null,
+        "subtype": "Text Input",
+        "position": null,
+        "parent": null,
+        "description": "<p>Form element for formatted text using <a href=\"http:\/\/daringfireball.net\/projects\/markdown\/syntax\">Markdown<\/a>&nbsp;syntax.<\/p>",
+        "image": "images\/formelement\/markdown.jpg",
+        "composition": "<property> = markdown <rows> <size>",
+        "parameters": "[[\"Rows\",\"Value\",\"10\",\"Determines the number of rows of the input field.\"],[\"Size\",\"Value\",\"L\",\"\\tDetermines the size of the input field. Can be on of 'S', 'M', 'L', 'XL', 'XXL'.\"]]",
+        "examples": "Abstract = markdown",
+        "examplescomment": "",
+        "storage": "<p><a href=\"http:\/\/daringfireball.net\/projects\/markdown\/syntax\">Markdown<\/a><\/p>",
+        "linktext": "",
+        "linkurl": ""
+    },
+    "info": {
+        "revision": 4,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470151347,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

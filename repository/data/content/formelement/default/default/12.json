@@ -1,0 +1,32 @@
+{
+    "id": 12,
+    "properties": {
+        "name": "checkbox",
+        "status": null,
+        "subtype": "Selections",
+        "position": null,
+        "parent": null,
+        "description": "<p>Form element for managing binary states.<\/p>",
+        "image": "images\/formelement\/checkbox.jpg",
+        "composition": "<property> = checkbox <legend>",
+        "parameters": "[[\"Legend\",\"Value\",\"\",\"Description of the selectable state.\"]]",
+        "examples": "Online = checkbox\n\nTerms & Conditions = checkbox \"Customer has agreed our terms & conditions.\"",
+        "examplescomment": null,
+        "storage": "<p>Stored as '0' or '1' if the checkbox has been checked.<\/p>"
+    },
+    "info": {
+        "revision": 1,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470153497,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

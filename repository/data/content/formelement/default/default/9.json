@@ -1,0 +1,32 @@
+{
+    "id": 9,
+    "properties": {
+        "name": "geolocation",
+        "status": null,
+        "subtype": "Numerical Input",
+        "position": null,
+        "parent": null,
+        "description": "<p>Form element for editing places.<\/p>",
+        "image": "images\/formelement\/geolocation.jpg",
+        "composition": "<property> = geolocation",
+        "parameters": "[[\"\",\"\",\"\",\"\"]]",
+        "examples": "Main site = geolocation",
+        "examplescomment": null,
+        "storage": "<p>Latitude and Longitude gets separated with a comma. The coordinates itself are encoded as <a href=\"http:\/\/en.wikipedia.org\/wiki\/Decimal_degrees\">decimal degrees<\/a>.<\/p>\n<p>E.g.: \"50.1109221, 8.682126700000026\"<\/p>"
+    },
+    "info": {
+        "revision": 1,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470153497,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

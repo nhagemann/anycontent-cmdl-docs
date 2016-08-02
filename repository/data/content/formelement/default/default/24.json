@@ -1,0 +1,32 @@
+{
+    "id": 24,
+    "properties": {
+        "name": "headline [",
+        "status": null,
+        "subtype": "Form Composition",
+        "position": null,
+        "parent": null,
+        "description": null,
+        "image": null,
+        "composition": null,
+        "parameters": null,
+        "examples": null,
+        "examplescomment": null,
+        "storage": null
+    },
+    "info": {
+        "revision": 1,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470153497,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

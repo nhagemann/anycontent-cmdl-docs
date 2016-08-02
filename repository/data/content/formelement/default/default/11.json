@@ -1,0 +1,32 @@
+{
+    "id": 11,
+    "properties": {
+        "name": "range",
+        "status": null,
+        "subtype": "Numerical Input",
+        "position": null,
+        "parent": null,
+        "description": "<p>Form element for selecting numbers within a given range.<\/p>",
+        "image": "images\/formelement\/range.jpg",
+        "composition": "<property> = range <min> <max> <step>",
+        "parameters": "[[\"Min\",\"Value\",\"Mandatory!\",\"Minimum selectable value.\"],[\"Max\",\"Value\",\"Mandatory!\",\"Maximum selectable value.\"],[\"Step\",\"Value\",\"1\",\"Determines the scale of the increments between minimum und maximum selectable value.\"]]",
+        "examples": "a = range 10 100 5",
+        "examplescomment": null,
+        "storage": "<p>Numbers are stored with '.' as decimal, if required.<\/p>\n<p>E.g.: \"42.42\"<\/p>"
+    },
+    "info": {
+        "revision": 1,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470153497,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

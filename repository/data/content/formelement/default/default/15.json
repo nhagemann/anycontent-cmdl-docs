@@ -1,0 +1,32 @@
+{
+    "id": 15,
+    "properties": {
+        "name": "reference",
+        "status": null,
+        "subtype": "Selections",
+        "position": null,
+        "parent": null,
+        "description": "<p>Form element for selecting a record of a distinct content type.<\/p>",
+        "image": "images\/formelement\/reference.jpg",
+        "composition": "<property> = reference <contenttype> <type> <workspace> <order> <language> <timeshift>",
+        "parameters": "[[\"ContentType\",\"Value\",\"Mandatory!\",\"Name of the referenced content type. If you want to reference a content type from another repository you have to include the repository name, e.g. repository.contenttype.\"],[\"Type\",\"Value\",\"dropdown\",\"Note how the selection should be presented. Possible values are 'radio', 'toggle' and 'dropdown'. \"],[\"Workspace\",\"Value\",\"\",\"Specifies the workspace of the selectable records. \\r\\nIf you leave this option empty, current workspace gets selected.\"],[\"Order\",\"Value\",\"name\",\"Specifies how the selectable records are sorted.\"],[\"Language\",\"Value\",\"\",\"Specifies the language of the selectable records.\\r\\nIf you leave this option empty, current language gets selected.\"],[\"TimeShift\",\"Value\",\"0\",\"Specifies the time shift of the selectable records.\"]]",
+        "examples": "News = selection news\n\nProduct = selection product dropdown live\n\nPage = selection page dropdown live english",
+        "examplescomment": null,
+        "storage": "<p>The id of the selected record is stored as a string.<\/p>"
+    },
+    "info": {
+        "revision": 1,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470153497,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

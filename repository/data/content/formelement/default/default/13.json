@@ -1,0 +1,32 @@
+{
+    "id": 13,
+    "properties": {
+        "name": "selection",
+        "status": null,
+        "subtype": "Selections",
+        "position": null,
+        "parent": null,
+        "description": "<p>Form element for selection of one value out of a list of possible values.<\/p>",
+        "image": "images\/formelement\/selection.jpg",
+        "composition": "<property> = selection <type> (options)",
+        "parameters": "[[\"Type\",\"Value\",\"dropdown\",\"Note how the selection should be presented. Possible values are 'radio', 'toggle' and 'dropdown'. \"],[\"Options\",\"List\",\"Mandatory!\",\"List of selectable values.\"]]",
+        "examples": "Category = selection (Single, Double, Suite)\n\nClass = selection radio (First, Business, Economy)\n\nClass = selection radio (1:First, 2:Business, 3:Economy)",
+        "examplescomment": null,
+        "storage": "<p>The selected value is stored as a string. If the list is is specified as key\/value list only the key gets stored.<\/p>"
+    },
+    "info": {
+        "revision": 1,
+        "creation": {
+            "timestamp": null,
+            "username": "",
+            "firstname": "",
+            "lastname": ""
+        },
+        "lastchange": {
+            "timestamp": 1470153497,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

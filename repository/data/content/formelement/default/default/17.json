@@ -1,0 +1,29 @@
+{
+    "id": 17,
+    "properties": {
+        "name": "file",
+        "subtype": "Files & Images",
+        "description": "",
+        "image": "images\/formelement\/file.jpg",
+        "composition": "",
+        "parameters": "[[\"\",\"\",\"\",\"\"]]",
+        "examples": "",
+        "examplescomment": "",
+        "storage": ""
+    },
+    "info": {
+        "revision": 1,
+        "creation": {
+            "timestamp": 1470153318,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "lastchange": {
+            "timestamp": 1470153318,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}
