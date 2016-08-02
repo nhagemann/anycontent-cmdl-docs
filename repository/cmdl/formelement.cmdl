@@ -1,0 +1,11 @@
+Name
+Type {subtype} = selection (Text Input, Numerical Input, Selections, Files & Images, Data Structures, Source Code Input, Form Composition, Other Form Elements)
+Description = richtext 5
+Image = image
+Composition
+Parameters = table (Name,Type,Default,Description) (2,1,1,5)
+Examples = cmdl
+Examples Comment = richtext 4
+Storage = richtext 4
+
+@subtypes (Text Input, Numerical Input, Selections, Files & Images, Data Structures, Source Code Input, Form Composition, Other Form Elements)
