@@ -1,0 +1,27 @@
+{
+    "id": 7,
+    "properties": {
+        "name": "@time-shiftable",
+        "scope": "Data Type",
+        "description": "",
+        "image": "",
+        "composition": "@time-shiftables",
+        "parameters": "[[\"\",\"\",\"\",\"\"]]",
+        "example": "[]"
+    },
+    "info": {
+        "revision": 2,
+        "creation": {
+            "timestamp": 1470210744,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "lastchange": {
+            "timestamp": 1470212623,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

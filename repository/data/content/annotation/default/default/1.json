@@ -1,0 +1,27 @@
+{
+    "id": 1,
+    "properties": {
+        "name": "@title",
+        "scope": "Data Type",
+        "description": "<p>Title of a data&nbsp;type (content or config).<\/p>",
+        "image": "",
+        "composition": "@title <title>",
+        "parameters": "[[\"Title\",\"Value\",\"Mandatory!\",\"\"]]",
+        "example": "[{\"example\":{\"image\":\"\",\"cmdl\":\"@title \\\"News\\\"\"}}]"
+    },
+    "info": {
+        "revision": 7,
+        "creation": {
+            "timestamp": 1470210744,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "lastchange": {
+            "timestamp": 1470212349,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

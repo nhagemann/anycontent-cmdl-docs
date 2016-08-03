@@ -1,0 +1,27 @@
+{
+    "id": 5,
+    "properties": {
+        "name": "@workspaces",
+        "scope": "Data Type",
+        "description": "",
+        "image": "",
+        "composition": "@workspaces (options)",
+        "parameters": "[[\"Options\",\"List\",\"Mandatory!\",\"Workspaces of the data type. Must contain on workspace with key\\\/name \\\"default\\\".\"]]",
+        "example": "[]"
+    },
+    "info": {
+        "revision": 2,
+        "creation": {
+            "timestamp": 1470210744,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "lastchange": {
+            "timestamp": 1470212572,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

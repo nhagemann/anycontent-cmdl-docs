@@ -1,0 +1,27 @@
+{
+    "id": 16,
+    "properties": {
+        "name": "@hidden-properties",
+        "scope": "Content Type",
+        "description": "<p>Adds properties to a data-type view, that do not have a related form element.<\/p>",
+        "image": "",
+        "composition": "@hidden-properties (properties)",
+        "parameters": "[[\"Properties\",\"List\",\"Mandatory!\",\"List of properties to be included.\"]]",
+        "example": "[]"
+    },
+    "info": {
+        "revision": 2,
+        "creation": {
+            "timestamp": 1470210744,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "lastchange": {
+            "timestamp": 1470213672,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

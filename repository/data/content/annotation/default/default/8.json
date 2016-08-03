@@ -1,0 +1,27 @@
+{
+    "id": 8,
+    "properties": {
+        "name": "@sortable",
+        "scope": "Content Type",
+        "description": "",
+        "image": "",
+        "composition": "@sortable <type>",
+        "parameters": "[[\"Type\",\"Value\",\"tree\",\"Indicates how the records can be sorted. Possible values are \\\"tree\\\" and \\\"list\\\".\"]]",
+        "example": "[]"
+    },
+    "info": {
+        "revision": 2,
+        "creation": {
+            "timestamp": 1470210744,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "lastchange": {
+            "timestamp": 1470212701,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

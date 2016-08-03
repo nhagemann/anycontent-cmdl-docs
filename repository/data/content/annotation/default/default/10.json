@@ -1,0 +1,27 @@
+{
+    "id": 10,
+    "properties": {
+        "name": "@hint",
+        "scope": "Form Element",
+        "description": "",
+        "image": "",
+        "composition": "@hint <property> <text>",
+        "parameters": "[[\"Property\",\"Value\",\"Mandatory!\",\"Name of property which should get a default value. Property must be a valid identifier (lowercase a-z, 0-9 and\\\/or \\\"_\\\").\"],[\"Text\",\"Value\",\"Mandatory!\",\"Text to be displayed.\"]]",
+        "example": "[]"
+    },
+    "info": {
+        "revision": 2,
+        "creation": {
+            "timestamp": 1470210744,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "lastchange": {
+            "timestamp": 1470213171,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

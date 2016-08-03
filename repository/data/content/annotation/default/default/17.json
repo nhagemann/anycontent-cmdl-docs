@@ -1,0 +1,27 @@
+{
+    "id": 17,
+    "properties": {
+        "name": "@insert",
+        "scope": "Data Type",
+        "description": "<p>@insert is used to dynamically create a data type definition out of clippings. This allows reusage of definitions in different views and\/or property dependent data type definitions.<\/p>",
+        "image": "",
+        "composition": "@insert <clipping\/property> (Options) (Workspaces) (Languages) ",
+        "parameters": "[[\"Clipping\",\"Value\",\"\",\"Name of clipping to be inserted.  \\r\\nParameter is interpretated as clipping if no or 2 lists (workspaces,languages) are provided.\"],[\"Property\",\"Value\",\"\",\"Name of property to be checked against.\\r\\nParameter is interpretated as property if 1 (options) or 3 lists (options, workspaces, languages) are provided\"],[\"Workspaces\",\"List\",\"\",\"The @insert annotation is limited to the listed workspaces.\"],[\"Languages\",\"List\",\"\",\"The @insert annotation is limited to the listes langauges.\"]]",
+        "example": "[{\"example\":{\"image\":\"\",\"cmdl\":\"@insert address\"}},{\"example\":{\"image\":\"\",\"cmdl\":\"@insert subtype (Prospect:a,Customer:b)\\r\\n\\r\\n\\r\\n+++ a +++\\r\\nName\\r\\n\\r\\n+++ b +++\\r\\nCustomer Number\"}},{\"example\":{\"image\":\"\",\"cmdl\":\"@insert template (default) (english)\"}}]"
+    },
+    "info": {
+        "revision": 4,
+        "creation": {
+            "timestamp": 1470210744,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "lastchange": {
+            "timestamp": 1470214756,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

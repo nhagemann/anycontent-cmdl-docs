@@ -1,0 +1,27 @@
+{
+    "id": 2,
+    "properties": {
+        "name": "@description",
+        "scope": "Data Type",
+        "description": "<p>Description&nbsp;of a data&nbsp;type (content or config).<\/p>",
+        "image": "",
+        "composition": "@description <description>",
+        "parameters": "[[\"Description\",\"Value\",\"Mandatory!\",\"\"]]",
+        "example": "[{\"example\":{\"image\":\"\",\"cmdl\":\"@description \\\"B2B company news.\\\"\"}}]"
+    },
+    "info": {
+        "revision": 3,
+        "creation": {
+            "timestamp": 1470210744,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "lastchange": {
+            "timestamp": 1470212383,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

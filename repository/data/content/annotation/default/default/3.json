@@ -1,0 +1,27 @@
+{
+    "id": 3,
+    "properties": {
+        "name": "@status",
+        "scope": "Content Type",
+        "description": "<p>Indicates that a content type does make use of the special property \"status\". This information can be utilised within an AnyContent backend.<\/p>",
+        "image": "",
+        "composition": "@status (options)",
+        "parameters": "[[\"Options\",\"List\",\"Mandatory!\",\"\"]]",
+        "example": "[{\"example\":{\"image\":\"\",\"cmdl\":\"@status (1:Online,0:Offline)\"}}]"
+    },
+    "info": {
+        "revision": 3,
+        "creation": {
+            "timestamp": 1470210744,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "lastchange": {
+            "timestamp": 1470212447,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

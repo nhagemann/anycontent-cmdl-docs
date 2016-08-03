@@ -1,0 +1,13 @@
+Name
+Scope = selection (Data Type, Content Type, Data Dimensions, Form Element)
+Description = richtext 5
+Image = image
+Composition
+Parameters = table (Name,Type,Default,Description) (2,1,1,5)
+[Examples]
+example = sequence (example)
+
+
++++ example +++
+Image = image
+CMDL = cmdl

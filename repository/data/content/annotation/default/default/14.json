@@ -1,0 +1,27 @@
+{
+    "id": 14,
+    "properties": {
+        "name": "@name",
+        "scope": "Content Type",
+        "description": "<p>Automatic population of name property. To be used, if a content type record does not have a name or the name should be a combination of multiple properties.<\/p>",
+        "image": "",
+        "composition": "@name <replacement>",
+        "parameters": "[[\"Replacement\",\"Value\",\"Mandatory!\",\"\"]]",
+        "example": "[{\"example\":{\"image\":\"\",\"cmdl\":\"@name \\\"{{lastname}}, {{firstname}}\\\"\"}}]"
+    },
+    "info": {
+        "revision": 2,
+        "creation": {
+            "timestamp": 1470210744,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "lastchange": {
+            "timestamp": 1470213553,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}

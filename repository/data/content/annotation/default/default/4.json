@@ -1,0 +1,27 @@
+{
+    "id": 4,
+    "properties": {
+        "name": "@subtypes",
+        "scope": "Content Type",
+        "description": "<p>Indicates that a content type does make use of the special property \"subtype\". This information can be utilised within an AnyContent backend.<\/p>",
+        "image": "",
+        "composition": "@subtypes (options)",
+        "parameters": "[[\"Options\",\"List\",\"Mandatory!\",\"\"]]",
+        "example": "[{\"example\":{\"image\":\"\",\"cmdl\":\"@subtypes (Prospect,Customer)\"}}]"
+    },
+    "info": {
+        "revision": 3,
+        "creation": {
+            "timestamp": 1470210744,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "lastchange": {
+            "timestamp": 1470212499,
+            "username": "john@example.org",
+            "firstname": "John",
+            "lastname": "Doe"
+        }
+    }
+}
