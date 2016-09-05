@@ -1,0 +1,15 @@
+{
+  "php": "5.4",
+  "require": {
+    "silex/silex": "1.*",
+    "twig/twig": "1.*",
+    "nhagemann/anycontent-client-php": "dev-develop as 2.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
